@@ -20,11 +20,11 @@ const FEATURED = [
     status: 'live',
   },
   {
-    name: 'datetime-mcp',
-    href: 'https://github.com/joshuaboys/datetime-mcp',
-    lang: 'JavaScript',
-    tags: ['mcp', 'agents'],
-    blurb: 'An MCP server that hands coding agents the one thing they never actually have: the current date and time.',
+    name: 'forgekit',
+    href: 'https://github.com/joshuaboys/forgekit',
+    lang: 'Rust',
+    tags: ['git', 'agents'],
+    blurb: 'A share-nothing Git host for the agent era. Agents push to cheap durable storage, you review checkpoints, and only releases get promoted to GitHub. One static binary.',
     status: 'live',
   },
   {
@@ -52,11 +52,11 @@ const FEATURED = [
     status: 'wip',
   },
   {
-    name: 'git-file-fetch',
-    href: 'https://github.com/joshuaboys/git-file-fetch',
-    lang: 'JavaScript',
-    tags: ['cli', 'repro'],
-    blurb: 'Pulls individual files out of remote Git repositories and tracks them locally, so vendored snippets stay reproducible.',
+    name: 'steward',
+    href: 'https://github.com/joshuaboys/steward',
+    lang: 'TypeScript',
+    tags: ['cli', 'agents'],
+    blurb: 'A persistent identity that holds standing responsibility for one repository. It wakes when the world changes, does only the work required, records evidence, and returns to idle.',
     status: 'live',
   },
 ];

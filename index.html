@@ -18,6 +18,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2305070a'/%3E%3Ctext x='16' y='23' font-family='monospace' font-size='20' font-weight='bold' fill='%2300f0ff' text-anchor='middle'%3E%E1%9A%A2%3C/text%3E%3C/svg%3E">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://api.github.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
@@ -37,6 +38,8 @@
     <div class="boot" aria-label="Terminal session">
       <p class="boot-line"><span class="prompt">%</span> ssh aneki@shack.arkahna.io</p>
       <p class="boot-line"><span class="ok">➜</span> Connected. <span class="dim">tty/0 · 9600 baud · no logging</span></p>
+      <p class="boot-line"><span class="prompt">%</span> stat --wares</p>
+      <p class="boot-line"><span class="ok">➜</span> <span id="tally-out"></span></p>
       <p class="boot-line"><span class="prompt">%</span> cat /etc/motd</p>
     </div>
 
@@ -74,7 +77,7 @@
   <section id="backroom" aria-labelledby="backroom-h">
     <div class="sec-head">
       <h2 id="backroom-h"><span class="slash">//</span> THE_BACK_ROOM</h2>
-      <p class="sec-note">Smaller stock. Experiments, scripts, and things built in one sitting.</p>
+      <p class="sec-note">Smaller stock. Experiments, scripts, and some things built in only one sitting.</p>
     </div>
     <ul class="stack" id="stack"></ul>
   </section>
@@ -101,6 +104,8 @@
       <a href="https://github.com/joshuaboys/aneki">Source</a>
       <span class="sep">·</span>
       <span>No trackers, no cookies, no analytics.</span>
+      <span class="sep">·</span>
+      <span>Counts read live from the public GitHub API.</span>
     </p>
   </div>
 </footer>
